@@ -38,6 +38,7 @@ npm install react-plotly.js
 In my case React server is running on port 5000 and the JSON fetching API is on port 8000, you may also encounter CORS (Cross-Origin Resource Sharing) issues.
 
 To resolve this,
-1. json-server --watch db.json --port8000
+1. json-server --watch db.json --port 8000
+
 2. Also, you can either configure your API server to allow requests from your React development server or set up a proxy for your React app.
    
